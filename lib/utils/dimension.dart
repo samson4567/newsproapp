@@ -17,7 +17,7 @@ class SizeConfig {
 }
 
 /// Get the proportionate height as per screen size
-double getScreenHeight(double inputHeight, {required Column child}) {
+double getScreenHeight(double inputHeight, ) {
   double screenHeight = SizeConfig.screenHeight!;
 
   /// figma height 872

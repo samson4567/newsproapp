@@ -16,9 +16,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         body: Container(
       height: 300,
       child: PageView(scrollDirection: Axis.horizontal, children: const [
-        SampleModel(),
-        SampleModel(),
-        SampleModel(),
+        SampleModel(
+         imagepath: '', headings: 'nigerian in trouble',
+        ),
+        SampleModel(imagepath:'image', headings: 'US gives orders ',),
+        SampleModel(imagepath:'', headings: 'Us',),
       ]),
     ));
   }
